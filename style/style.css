@@ -16,25 +16,33 @@ p {
     font-family: eigerdals, sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 body {
     background-color: #E3EBD8;
+    
 }
 
 header{
-    box-shadow: 0 0.2em 0.3em 0, rgba(0, 0, 0, 0.25);
-    border-bottom: 1px solid #000;
+    box-shadow: 0 0.2em 0.3em 0 rgba(0, 0, 0, 0.25);
+    border-bottom: 0.1em solid #000;
     display:flex;
     justify-content:left;   
 }
 
+main {
+    margin-bottom: 10%;
+}
+
 nav{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     border-top: 0.1em solid #000;
-    box-shadow: 0.25em 0.125em 0 rgba(0,0,0,.4);
+    box-shadow: 0px -0.2em 0.3em 0px rgba(0, 0, 0, .25);
     width: 100vw;
+    background-color: #E3EBD8;
 
 }
 
@@ -79,3 +87,14 @@ main h1 {
     justify-content: center;
     padding-top: 7%;
 }
+
+section {
+    text-align: center;
+    margin: 5%;
+}
+
+section img {
+    width: 100%;
+    border-radius: 6%;
+}
+
