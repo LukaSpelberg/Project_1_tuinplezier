@@ -132,6 +132,7 @@ section h2 {
 
 .container img {
     width: 55%;
+   
 }
 
 .text-in-container {
@@ -140,7 +141,7 @@ section h2 {
 }
 
 .text-in-container a {
-    border-radius: 1.5625em;
+    border-radius: 1.5em;
     background: linear-gradient(270deg, #79BC23 -3.23%, #4A7221 100%);  /*uit figma gehaald*/
     text-decoration: none;
     box-shadow: 0.1em 0.2em 0.2em 0 rgba(0, 0, 0, 0.25);
