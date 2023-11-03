@@ -39,6 +39,7 @@ p {
 
 body {
     background-color: #E3EBD8;
+
     
 }
 
@@ -50,7 +51,7 @@ header{
 }
 
 main {
-    margin-bottom: 10%;
+   margin-bottom: 8em;
 }
 
 nav{
@@ -60,6 +61,7 @@ nav{
     box-shadow: 0 -0.2em 0.3em 0 rgba(0, 0, 0, .25);
     width: 100vw;
     background-color: #E3EBD8;
+    height: 6em;
 
 }
 
@@ -110,7 +112,7 @@ main h1 {
 
 section {
     text-align: center;
-    margin: 5%;
+    margin: 0% 5% 20% 5%;
 }
 
 section img {
@@ -118,11 +120,34 @@ section img {
     border-radius: 6%;
 }
 
+section h2 {
+    margin: 10%;
+}
+
 .container {
     display: flex;
+    gap: 1em;
 
 }
 
 .container img {
-    width: 50%;
+    width: 55%;
+}
+
+.text-in-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-in-container a {
+    border-radius: 1.5625em;
+    background: linear-gradient(270deg, #79BC23 -3.23%, #4A7221 100%);  /*uit figma gehaald*/
+    text-decoration: none;
+    box-shadow: 0.1em 0.2em 0.2em 0 rgba(0, 0, 0, 0.25);
+    padding: 0.3em;
+    font-family: var(--header-font);
+}
+
+.container p {
+    text-align: left;
 }
