@@ -131,23 +131,23 @@ section ul {
     margin-left: 5%;
 }
 
-.container {
+figure {
     display: flex;
     gap: 1em;
 
 }
 
-.container img {
+figure img {
     width: 55%;
    
 }
 
-.text-in-container {
+figcaption {
     display: flex;
     flex-direction: column;
 }
 
-.text-in-container a {
+figcaption a {
     border-radius: 1.5em;
     background: linear-gradient(270deg, #79BC23 -3.23%, #4A7221 100%);  /*uit figma gehaald*/
     text-decoration: none;
@@ -156,11 +156,11 @@ section ul {
     font-family: var(--header-font);
 }
 
-.container p {
+figcaption p {
     text-align: left;
 }
 
-.kaarten {
+.knoppen {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -168,8 +168,8 @@ section ul {
     
 }
 
-.kaarten a {
-    background-color: #759F40;
+.knoppen a {
+    background-color: var(--header-kleur);
     padding: 1em;
     border-radius: 0.5em;
     text-decoration: none;
@@ -178,4 +178,22 @@ section ul {
    
 }
 
+.kaarten_container { 
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
 
+.kaart_1 {
+    background: var(--header-kleur);
+    border-radius: 1.5em;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    
+
+}
+
+.kaart_1 img {
+    height: 15em;
+}
