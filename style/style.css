@@ -84,9 +84,6 @@ nav li a {
     flex-direction: column;
 }
 
-nav ul li a:hover{
-    color:red
-}
 
 header img {
   height:2em;
